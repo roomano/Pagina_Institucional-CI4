@@ -1,0 +1,36 @@
+CRITICAL - 2024-01-19 06:05:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "where_we_are.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('where_we_are.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('where_we_are', [], true)
+ 3 APPPATH\Controllers\Main.php(19): view('where_we_are')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Main->where_we_are()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 06:06:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "where_we_are.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('where_we_are.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('where_we_are', [], true)
+ 3 APPPATH\Controllers\Main.php(19): view('where_we_are')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Main->where_we_are()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 07:38:10 --> ParseError: syntax error, unexpected identifier "alt", expecting ")"
+in APPPATH\Views\home.php on line 43.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Main.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 07:49:19 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\home.php on line 45.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Main.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
