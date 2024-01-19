@@ -2,20 +2,20 @@
 
 namespace App\Controllers;
 
-class Main extends BaseController
+class Home extends BaseController
 {
     public function index()
     {
-        return view('home');
+        return view('home/home');
     }
 
     public function products(): string
     {
-        return view('products');
+        return view('home/products');
     }
 
     public function where_we_are()
     {
-        return view('where_we_are');
+        return view('home/where_we_are');
     }
 }

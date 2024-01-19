@@ -34,3 +34,40 @@ in APPPATH\Views\home.php on line 45.
  5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
  6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 16:22:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('products', [], true)
+ 4 APPPATH\Controllers\Main.php(14): view('products')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Main->products()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 16:25:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "main/where_we_are.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/where_we_are.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('main/where_we_are', [], true)
+ 3 APPPATH\Controllers\Main.php(19): view('main/where_we_are')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Main->where_we_are()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 16:49:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "main/where_we_are.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/where_we_are.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('main/where_we_are', [], true)
+ 3 APPPATH\Controllers\Home.php(19): view('main/where_we_are')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->where_we_are()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 16:49:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "main/where_we_are.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/where_we_are.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('main/where_we_are', [], true)
+ 3 APPPATH\Controllers\Home.php(19): view('main/where_we_are')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->where_we_are()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
